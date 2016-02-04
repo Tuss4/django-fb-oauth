@@ -3,7 +3,8 @@
 A simple Facebook OAuth 2 implementation in resuable Django app form.
 
 ## Quick Start
-
++ install the package:
+`pip install django-fb-oauth`
 + Add 'fbauth' to your `INSTALLED_APPS` setting like this:
 
 ```python
