@@ -41,3 +41,6 @@ url(r'^fb/', include('fbauth.urls'))
  ```python
  CALLBACK_ENDPOINT = "/fb/callback"
  ```
+## Testing
+
+Run `python manage.py test fbauth`
