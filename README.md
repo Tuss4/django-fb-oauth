@@ -6,7 +6,7 @@ Python (2.7 >)
 Django (1.7 >)
 
 ## Quick Start
-+ install the package:
++ install the package:  
 `pip install django-fb-oauth`
 + Add 'fbauth' to your `INSTALLED_APPS` setting like this:
 
