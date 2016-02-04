@@ -2,7 +2,7 @@
 
 A simple Facebook OAuth 2 implementation in resuable Django app form.
 
-Python (2.7 >)
+Python (2.7 >)  
 Django (1.7 >)
 
 ## Quick Start
