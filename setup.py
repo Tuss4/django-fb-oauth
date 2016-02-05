@@ -8,7 +8,7 @@ A simple Facebook OAuth 2 implementation in reusable Django app form.
 
 setup(
     name='django-fb-oauth',
-    version='1.0.1.dev1',
+    version='0.0.1.dev1',
     packages=['fbauth', 'fbauth.migrations'],
     install_requires=['requests', 'djangorestframework'],
     author='TJ Soptame',
