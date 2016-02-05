@@ -3,6 +3,12 @@ INSTALLED_APPS = [
     'tests',
     'fbauth'
 ]
+ATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'fbauthdb',
+    }
+}
 ROOT_URLCONF = 'fbauth.urls'
 FACEBOOK_SCOPE = ['email']
 FACEBOOK_PROFILE_FIELDS = ['email', 'first_name', 'last_name']
