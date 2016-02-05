@@ -1,4 +1,4 @@
-# Django FB Auth
+# Django FB OAuth
 
 [ ![Codeship Status for Tuss4/django-fb-oauth](https://codeship.com/projects/ea22b680-ae4f-0133-5844-0eeab60c84ba/status?branch=master)](https://codeship.com/projects/132310) [![PyPI version](https://badge.fury.io/py/django-fb-oauth.svg)](https://badge.fury.io/py/django-fb-oauth)
 
