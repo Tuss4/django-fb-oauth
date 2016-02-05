@@ -3,7 +3,7 @@ INSTALLED_APPS = [
     'tests',
     'fbauth'
 ]
-ATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'fbauthdb',
