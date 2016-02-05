@@ -3,7 +3,7 @@ from setuptools import setup
 
 
 long_description = '''
-A simple Facebook OAuth 2 implementation in resuable Django app form.
+A simple Facebook OAuth 2 implementation in reusable Django app form.
 '''
 
 setup(
