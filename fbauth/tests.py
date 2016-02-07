@@ -7,6 +7,7 @@ from unittest import mock
 from .client import FB_CLIENT
 from .models import FBToken
 from django.contrib.auth import get_user_model
+from django.conf import settings
 
 
 class OAuthTest(APITestCase):
@@ -46,5 +47,5 @@ class OAuthTest(APITestCase):
 class UtilsTest(TestCase):
 
     def test_param_methods(self):
-        self.assertEqual(get_scope_params(), 'email')
-        self.assertEqual(get_fields_params(), 'email,first_name,last_name')
+        self.assertEqual(get_scope_params(), ','.join(settings.FACEBOOK_SCOPE))
+        self.assertEqual(get_fields_params(), ','.join(settings.FACEBOOK_PROFILE_FIELDS))
